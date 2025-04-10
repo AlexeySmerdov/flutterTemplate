@@ -1,0 +1,29 @@
+name: flutter_firebase_template
+description: A Flutter project template with Firebase, Riverpod, and GoRouter
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.17.5
+  flutter_riverpod: ^2.4.5
+  go_router: ^12.1.0
+  cloud_firestore: ^4.13.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: any
+  freezed: any
+  json_serializable: any
+
+flutter:
+  uses-material-design: true
